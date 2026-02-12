@@ -11,6 +11,18 @@ This project uses Deep Learning techniques to predict the coordinates (x, y) of 
 - **Framework**: TensorFlow/Keras
 - **Dataset**: Synthetically generated with 14,000 samples (10K train, 2K val, 2K test)
 
+## Key Features
+
+- Synthetic dataset generation with rationale  
+- CNN-based regression architecture  
+- Training logs with real-time visualization  
+- Comprehensive evaluation metrics  
+- Ground truth vs. prediction visualizations  
+- Error distribution analysis  
+- Professional code with PEP8 compliance  
+- Detailed comments throughout  
+- Complete installation instructions 
+
 ## Dataset Rationale
 
 ### Why 14,000 Samples?
@@ -157,46 +169,7 @@ d:/ML/Projects/ML/ML Project/
     ├── training_history.png
     ├── predictions_visualization.png
     └── error_distribution.png
-```
-
-## Dependencies
-
-- **TensorFlow** (≥2.13.0): Deep learning framework
-- **NumPy** (≥1.24.0): Numerical computing
-- **Matplotlib** (≥3.7.0): Plotting and visualization
-- **Seaborn** (≥0.12.0): Statistical visualizations
-- **Pandas** (≥2.0.0): Data manipulation
-- **scikit-learn** (≥1.3.0): Metrics and utilities
-- **Jupyter** (≥1.0.0): Interactive notebook environment
-
-## Code Quality
-
-- **PEP8 Compliant**: All code follows Python style guidelines
-- **Comprehensive Comments**: Every section and function is documented
-- **Modular Design**: Clear separation between data generation, model definition, training, and evaluation
-- **Error Handling**: Robust code with appropriate error checks
-- **Reproducibility**: Random seeds set for consistent results
-
-## Key Features
-
-✅ Synthetic dataset generation with rationale  
-✅ CNN-based regression architecture  
-✅ Training logs with real-time visualization  
-✅ Comprehensive evaluation metrics  
-✅ Ground truth vs. prediction visualizations  
-✅ Error distribution analysis  
-✅ Professional code with PEP8 compliance  
-✅ Detailed comments throughout  
-✅ Complete installation instructions  
-
-## Evaluation Criteria Alignment
-
-This project addresses all evaluation criteria:
-
-1. **Functionality**: CNN regression model successfully predicts pixel coordinates
-2. **Approach**: Clear rationale for dataset size, architecture choice, and training strategy
-3. **Code Quality**: PEP8 compliant, well-organized, commented, and maintainable
-4. **Model Performance**: Achieves excellent results with proper evaluation
+``` 
 
 ## Author
 
